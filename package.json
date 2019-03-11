@@ -1,0 +1,23 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "new-version": "lerna version prerelease --preid SNAPSHOT --yes --exact --no-push --include-merged-tags",
+    "new-prepatch": "lerna version prepatch --preid SNAPSHOT --yes --exact --no-push --include-merged-tags",
+    "new-preminor": "lerna version preminor --preid SNAPSHOT --yes --exact --no-push --include-merged-tags",
+    "new-premajor": "lerna version premajor --preid SNAPSHOT --yes --exact --no-push --include-merged-tags",
+    "new-patch": "lerna version patch --yes --exact --no-push --include-merged-tags",
+    "new-minor": "lerna version minor --yes --exact --no-push --include-merged-tags",
+    "new-major": "lerna version major --yes --exact --no-push --include-merged-tags",
+    "publish": "lerna publish from-package --yes --exact",
+    "publish-git": "lerna publish from-git --yes --exact",
+    "diff": "lerna diff",
+    "build": "lerna run build",
+    "install": "lerna exec -- npm install",
+    "bootstrap": "lerna bootstrap"
+  },
+  "devDependencies": {
+    "lerna": "^3.13.1"
+  },
+  "workspaces": ["packages/*"]
+}
