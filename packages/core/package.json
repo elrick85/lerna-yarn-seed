@@ -1,6 +1,6 @@
 {
   "name": "@myscope/core",
-  "version": "1.2.17-SNAPSHOT.0",
+  "version": "1.2.17",
   "description": "",
   "files": [
     "lib"
