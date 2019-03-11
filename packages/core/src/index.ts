@@ -19,4 +19,5 @@ export const coreFn = () => {
   console.log('new message16');
   console.log('new message17');
   console.log('new message18');
+  console.log('new message19');
 };
