@@ -1,3 +1,7 @@
 /node_modules
 /.idea
 /*.npmrc
+/packages/core/node_modules
+/packages/core/lib
+/packages/logger/lib
+/packages/logger/node_modules

@@ -24,5 +24,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "gitHead": "043ad74b3d1e1c64403588c19116f0107d0cac33"
+  "gitHead": "043ad74b3d1e1c64403588c19116f0107d0cac33",
+  "devDependencies": {
+    "rimraf": "^2.6.3",
+    "typescript": "^3.3.3333"
+  }
 }
